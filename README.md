@@ -2,7 +2,7 @@
 
 ## Introduction
 
-This is a simple project to control a laser security system with Arduino. The laser is controlled by an ATmega32 which enables the laser to blink at a certain rate. This laser is sensed by an LDR sensor from the other end and detects the rate at which the laser blinks. The LDR sensor is connected to the Arduino which controls the alarm system. Whenever someone interrupts the laser, the Arduino does the following:
+This is a  project to control a laser security system with Arduino. The laser is controlled by an ATmega32 which enables the laser to blink at a certain rate. This laser is sensed by an LDR sensor from the other end and detects the rate at which the laser blinks. The LDR sensor is connected to the Arduino which controls the alarm system. Whenever someone interrupts the laser, the Arduino does the following:
 - Turns the buzzer on
 - Turns the red light on
 - Sends an SMS to the owner
